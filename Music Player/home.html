@@ -1,0 +1,632 @@
+<html>
+<head>
+<title>Music Player</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+</head>
+
+<body>
+    <!-- Header part of the website -->
+    <div id="queue-dropdown"><a href="#queue" > Queue</a></div>
+<div id="header">
+    <div class="animate__animated animate__pulse animate__infinite infinite" id="logo"> 
+    <a href="home.html"><i class="fab fa-napster"></i></a>
+    </div>
+
+    <div id="title">
+       <span>Music Player</span> 
+    </div>
+    
+    <div class="tabs">
+        <span>Favourites</span>
+    </div>
+    <div class="tabs">
+         <span>Saved playlists</span>
+    </div>
+   
+    
+    <div id="search">
+        <input type="text" placeholder="Search">&nbsp;
+        <button  type="submit"><i class="fas fa-search"></i></button>
+    </div>
+    <div id="profile-pic">
+        <img src="/Users/sp/Downloads/IMG_20191105_225746_Bokeh.jpg">
+        
+    </div>
+    <div  id="name" >
+            <span> Hello,<br> Sai Prasad </span>
+        </div>
+   
+    </div>
+<!-- main body section -->
+<div id="dropdown-menu"> 
+<a  href="#left-content" ><i class="fas fa-bars"></i></a>
+</div>
+<main>
+    <div id="left-content" class="animate__animated animate__fadeIn ">
+ <div id="dropdown-close"> <a href="#main"><b>close</b></a></div>
+
+<div id="main-links"class="links">    
+<ul>
+<li><a href="">Home</a></li>   
+<li><a href="">Browse</a></li>   
+<li><a href="">Radio</a></li>   
+<li class="hidden-options"><a href=" ">Favourites</a></li>
+<li class="hidden-options"><a href=" ">Saved Playlist</a></li>
+
+</ul> 
+    </div>
+  <span>YOUR LIBRARY</span> 
+ <div class="links">    
+<ul>
+<li><a href="">Made For You</a></li>   
+<li><a href="">Recently played</a></li>   
+<li><a href="">Liked Songs</a></li>   
+<li><a href="">Albums</a></li> 
+<li><a href="">Artists</a></li> 
+<li><a href="">Podcasts</a></li>   
+
+</ul> 
+    </div>
+    </div>
+
+    
+    <div id="main-content">
+   <div id="ad-content">
+<div>
+ <img src="rom.jpg">
+</div>
+<div>
+    <img src="music4.png">
+
+</div>
+<div id="middle-ad">
+    <img src="chiill.jpg">
+
+</div> 
+
+   </div>
+
+   <marquee scrollamount="10"><h4>Newly Released Songs</h4></marquee>
+
+
+   <div class="newly-released">
+
+  <div class="song-div">
+   <div class="song-image">
+    <img src="perfect.jpg">
+   </div>
+   <a href="#advertisement">
+    <div class="song-details">
+    <span><b>Perfect</b></span>
+    <span>Ed Sheeran</span>
+    <span> MAR 09,2017 </span>
+</a></div>
+
+     <div class="song-time">
+    <span> <i class="fas fa-ellipsis-h"></i></span>
+     <span >  4:00 </span>
+     </div>
+  </div>
+
+ <div class="song-div">
+    <div class="song-image">
+    <img src="savage_love.jpg">
+    </div>
+    <a href="#advertisement">
+    <div class="song-details">
+        <span><b>Savage Love</b></span>
+        <span>Jason Derulo</span>
+        <span> April 10,2020 </span>
+         </div>
+    </a>
+         <div class="song-time">
+        <span> <i class="fas fa-ellipsis-h"></i></span>
+         <span > 2:29</span>
+         </div>
+ </div>
+ <div class="song-div">
+    <div class="song-image">
+    <img src="wakemeup.jpg">
+    </div>
+    <a href="#advertisement">
+    <div class="song-details">
+        <span><b>Wake me up</b></span>
+        <span>Avicii</span>
+        <span> MAR 29,2020 </span>
+         </div>
+    </a>
+         <div class="song-time">
+        <span> <i class="fas fa-ellipsis-h"></i></span>
+         <span >2:00</span>
+         </div>
+ </div>
+ <div class="song-div">
+    <div class="song-image">
+    <img src="memories.jpg">
+    </div>
+    <a href="#advertisement">
+    <div class="song-details">
+        <span>Memories</span>
+        <span>Maroon 5</span>
+        <span> JUL 09,2019 </span>
+         </div>
+    </a>
+         <div class="song-time">
+        <span> <i class="fas fa-ellipsis-h"></i></span>
+         <span >  2:40 </span>
+         </div>
+ </div>
+ <div class="song-div">
+    <div class="song-image">
+    <img src="take-you-dancing.jpg">
+    </div>
+    <a href="#advertisement">
+    <div class="song-details">
+        <span>Take you Dancing</span>
+        <span>Jason Derulo</span>
+        <span> AUG 09,2020 </span>
+         </div>
+    </a>
+         <div class="song-time">
+        <span> <i class="fas fa-ellipsis-h"></i></span>
+         <span >3:50</span>
+         </div>
+ </div>
+ <div class="song-div">
+    <div class="song-image">
+    <img src="whatever-it-takes.jpg">
+    </div>
+    <a href="#advertisement">
+    <div class="song-details">
+        <span>Whatever it takes</span>
+        <span>Imagine Dragons</span>
+        <span> JUN 09,2020 </span>
+         </div>
+    </a>
+         <div class="song-time">
+        <span><i class="fas fa-ellipsis-h"></i></span>
+         <span > 3:10</span>
+         </div>
+ </div>
+   </div>
+
+   <h4  class="animate__animated animate__fadeIn">  International Popular Artists</h4>
+<div class="popular-artists arrow titles-hover">
+   
+ <div>
+     <a  target="_blank" href="artist.html">
+      <div class="center">   
+     <img src="adamlevine1.jpg"> 
+    </div>
+     <span >Adam Levine</span>
+ </a>
+ </div>
+ 
+ <div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="edsheeran.jpeg"> 
+    </div>
+    <span>Ed Sheeran</span>
+   </a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="eminem1.jpg"> 
+    </div>
+    <span >Eminem</span>
+</a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="taylor.jpg"> 
+    </div>
+    <span>Taylor Swift</span>
+   </a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="bruno.jpeg"> 
+    </div>
+    <span >Bruno Mars</span>
+   </a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="pitbull.jpeg">
+    </div>
+    <span >Pitbull</span>
+   </a>
+</div>
+
+
+</div>
+
+<h4> Local Popular Artists</h4>
+<div class="popular-artists arrow titles-hover">
+ <div>
+    <a target="_blank" href="artist.html"> 
+        <div class="center">   
+     <img src="arjit singh.jpeg"> 
+     </div>
+     <span >Arjit Singh</span>
+    
+    </a>
+ </div>
+ 
+ <div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="armaan malik.jpg">
+    </div> 
+    <span>Armaan Malik</span>
+   </a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="guru.jpg"> 
+    </div>
+    <span>Guru Randhawa</span>
+   </a>
+</div>
+
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="shreya.jpg"> 
+    </div>
+    <span>Shreya Ghoshal</span>
+   </a>
+</div>
+
+<div>
+<a target="_blank" href="artist.html">
+    <div class="center">   
+    <img src="sid.webp"> 
+    </div>
+    <span >Sid Sriram</span>
+  </a> 
+</div>
+<div>
+    <a target="_blank" href="artist.html">
+        <div class="center">   
+    <img src="honey.jpeg"> 
+    </div>
+    <span >Honey Singh</span>
+   </a>
+</div>
+</div>
+
+
+ <div id="type">
+<div id="party">
+    <img src="party.jpeg"> <br>
+    <span>Party</span>
+</div>
+<div id="feelgood">
+    <img src="feelgood.jpg"> <br>
+    <span>Feel Good</span>
+
+</div>
+<div id="road">
+    <img src="road-trip.jpg"> <br>
+    <span>Road trip</span>
+
+</div>
+</div>
+
+<h4>Latest English Songs</h4>
+<div class="songs-container arrow titles-hover">
+
+<div>
+    <a href="#media-player">
+ <img src="take-you-dancing.jpg">
+ <span>Take me Dancing</span>
+ <span>Jason Derulo</span>
+ </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="whatever-it-takes.jpg">
+    <span>Whatever it takes</span>
+    <span>Imagine Dragons</span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="gods-plan.jpeg">
+    <span>God's Plan</span>
+    <span>Drake</span>
+    </a>
+</div>
+
+
+<div>
+    <a href="#media-player">
+    <img src="little-do-you-know.jpg">
+    <span>Little Do You Know</span>
+    <span>Alex & Sierra </span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="goodbyes.png">
+    <span>Goodbyes</span>
+    <span>Post Malone </span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="thinking-out-loud.jpeg">
+    <span>Thinking Out Loud</span>
+    <span>Ed Sheeran </span>
+    </a>
+</div>
+
+
+</div>
+
+<h4>Latest Hindi Songs</h4>
+<div class="songs-container arrow titles-hover">
+
+<div>
+    <a href="#media-player">
+ <img src="mainrahoon.jpeg">
+ <span>Main rahoon ya na rahoon</span>
+ <span>Armaan Malik</span>
+ </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="tuhaiyaar.jpeg">
+    <span> Tu hi yaar mera</span>
+    <span>Arjit Singh</span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="pehli dafa.jpg">
+    <span>Pehli Dafa</span>
+    <span>Atif Aslam  </span>
+    </a>
+</div>
+
+
+<div>
+    <a href="#media-player">
+    <img src="khulke jeene ka.gif">
+    <span>Khulke Jeene Ka</span>
+    <span>Arjit Singh </span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="banjaa.jpeg">
+    <span>Banja Meri Rani</span>
+    <span>Guru Randhwa </span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="nazana.jpeg">
+    <span>Nazar na lag jaye</span>
+    <span>Sachin Jigar </span>
+    </a>
+</div>
+
+
+</div>
+
+
+
+<h4>Latest Telugu Songs</h4>
+<div class="songs-container arrow titles-hover">
+
+<div>
+    <a href="#media-player">
+ <img src="ninnuchuse.jpg">
+ <span>Ninu chuse Anandam lo</span>
+ <span>Sid Sriram</span>
+ </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="ramulo.jpeg">
+    <span> Ramulo Ramula</span>
+    <span>Anurag Kulkarni</span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="butta.jpeg">
+    <span>Butta Bomma</span>
+    <span>Armaan Malik  </span>
+    </a>
+</div>
+
+
+<div>
+    <a href="#media-player">
+    <img src="mind block.jpeg">
+    <span>Mind Block </span>
+    <span> Blaze,Ranina Reddy </span>
+    </a>
+</div>
+<div>
+    <a href="#media-player">
+    <img src="rangamma.jpeg">
+    <span>Rangamma Mangamma</span>
+    <span>M.M.Manasi </span>
+    </a>
+</div>
+<div>
+    <a href="#advertisement">
+    <img src="pyscho.webp">
+    <span>Pyscho Saiyaan</span>
+    <span>Dhvani Bhanushali,Sachet Tandon </span>
+    </a>
+</div>
+
+
+</div>
+
+    </div>
+    
+  
+    <div id="queue" class="right-content">
+        <span id="queue-close"><a href="#main">X</a></span>
+            <h2 >Queue</h2> <br>
+   <div class="song-div"> 
+   <img src="ninnuchuse.jpg">
+   <div class="song-details">
+    <span>Ninnu Chuse <br> Anandamlo</span>
+     </div>
+
+     <div class="song-fav" >
+    <span> <i class="far fa-heart"></i></i></span>
+     
+     </div>
+   </div>
+
+   <div class="song-div"> 
+   <img src="savage_love.jpg">
+   <div class="song-details">
+    <span>Savage Love</span>
+     </div>
+
+     <div class="song-fav" >
+    <span> <i class="far fa-heart"></i></i></span>
+     
+     </div>
+   </div>
+
+   <div class="song-div"> 
+    <img src="perfect.jpg">
+    <div class="song-details">
+     <span>Perfect</span>
+      </div>
+ 
+      <div class="song-fav" >
+     <span> <i class="far fa-heart"></i></i></span>
+      
+      </div>
+    </div>
+
+   <div class="song-div"> 
+   <img src="pehli dafa.jpg">
+   <div class="song-details">
+    <span>Pehli Dafa</span>
+     </div>
+
+     <div class="song-fav" >
+    <span> <i class="far fa-heart"></i></i></span>
+     
+     </div>
+   </div>
+
+   <div class="song-div"> 
+    <img src="memories.jpg">
+    <div class="song-details">
+     <span>Memories</span>
+      </div>
+ 
+      <div class="song-fav" >
+     <span> <i class="far fa-heart"></i></i></span>
+      
+      </div>
+    </div>
+
+    <div class="song-div"> 
+        <img src="banjaa.jpeg">
+        <div class="song-details">
+         <span>Banja Tu <br>Meri Rani</span>
+          </div>
+     
+          <div class="song-fav" >
+         <span> <i class="far fa-heart"></i></i></span>
+          
+          </div>
+        </div>
+
+   <div class="song-div"> 
+   <img src="tuhaiyaar.jpeg">
+   <div class="song-details">
+    <span>tuhaiyaar</span>
+     </div>
+
+     <div class="song-fav" >
+    <span> <i class="far fa-heart"></i></i></span>
+     
+     </div>
+   </div>  
+
+</div>
+
+</main>
+<footer>
+    <div id="advertisement" >
+    <a href="#media-player"> <i class="far fa-window-close"></i> </a>
+        <a  target="_blank" href="https://www.amazon.com/Mirzapur-Season-2/dp/B08LHBG7VC">
+          <img src="mirzapur.jpeg">
+     </a>
+ </div>
+
+
+
+<div id="media-player" class="animate__animated animate__bounceIn">
+    <div id="song-image">
+    <img src="perfect.jpg">
+    </div>
+<div id="song-details">
+<span>Perfect</span> <br>
+<span >Ed Sheeran</span>
+</div>
+<div id="fav-add">
+    <span> <i class="far fa-heart"></i> &nbsp;
+     <span><i class="fas fa-plus"></i></span>
+     
+</div>
+
+<div id="controller">
+
+    <div id="controls"> 
+        <i class="fas fa-random"></i>
+        <i class="fas fa-backward"></i>
+        <i class="far fa-pause-circle"></i>
+         <i class="fas fa-forward"></i>
+         <i class="fas fa-redo"></i>
+
+    </div>
+    <div id="player">
+       <input type="range">
+    </div>
+
+</div>
+<div id="media-opt">
+    <span><i class="fas fa-expand"></i></span> 
+    <span> <i class="fas fa-volume-up"></i> &nbsp;
+    <span > <input  type="range" ></span>
+    <span>    <a href="#main-content">Close</a>   </span>
+
+    </div>
+</div>
+
+</footer>
+
+</body>
+</html>
